@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>BDSE27-04_news</title> 
+  <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet'>
+  <link href='https://use.fontawesome.com/releases/v5.7.2/css/all.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+  <body className='snippet-body'>
+    <div class="row d-flex justify-content-center mt-100 mb-100">
+
+
+      <div class="col-lg-6">
+
+        <div class="card">
+          <div class="card-body text-center">
+            <h1 class="card-title m-b-0">幣圈新聞</h1>
+
+            <div class="grid_container">
+              <select id="language">
+                <option value="month">請選擇月份</option>
+                <option value="Jun">06</option>
+                <option value="Jul">07</option>
+                <option value="Aug">08</option>
+                <option value="Sep">09</option>
+                <option value="Oct" selected>10</option>
+              </select>
+
+              <button type="submit" name="button1" id="open-close" onclick="changeDate()">查詢</button>
+
+            </div>
+            <hr class="line">
+            <hr class="line1">
+            <h4 class="tittle">2022年10月</h4>
+            <div>
+
+            </div>
+          </div>
+          {% block page_content %}
+          <ul class="list-style-none">
+            <li class="d-flex no-block card-body">
+              <i class="fa fa-check-circle w-30px m-t-5"></i>
+              <div>
+                <a href="#" class="m-b-0 font-medium p-0" data-abc="true">Version 2.5 released</a>
+                <span class="text-muted">A new version 2.5 has been released. </span>
+              </div>
+              <div class="ml-auto">
+                <div class="tetx-right">
+                  <h5 class="text-muted m-b-0">2022-10-20</h5>
+                </div>
+              </div>
+            </li>
+            <li class="d-flex no-block card-body border-top">
+              <i class="fa fa-gift w-30px m-t-5"></i>
+              <div>
+                <a href="#" class="m-b-0 font-medium p-0" data-abc="true">Congratulation to AAA For new investment</a>
+                <span class="text-muted">AAA has invested $2M in MMM. we are happy to working forward with AAA.</span>
+              </div>
+              <div class="ml-auto">
+                <div class="tetx-right">
+                  <h5 class="text-muted m-b-0">2022-10-21</h5>
+                </div>
+              </div>
+            </li>
+            <li class="d-flex no-block card-body border-top">
+              <i class="fa fa-plus w-30px m-t-5"></i>
+              <div>
+                <a href="#" class="m-b-0 font-medium p-0" data-abc="true">Hiring Android Developers</a>
+                <span class="text-muted">We are hiring android developers to expend our mobile development team.</span>
+              </div>
+              <div class="ml-auto">
+                <div class="tetx-right">
+                  <h5 class="text-muted m-b-0">2022-10-22</h5>
+                </div>
+              </div>
+            </li>
+            <li class="d-flex no-block card-body border-top">
+              <i class="fa fa-leaf w-30px m-t-5"></i>
+              <div>
+                <a href="#" class="m-b-0 font-medium p-0" data-abc="true">Anounced New CEO</a>
+                <span class="text-muted">We announced John kendey as new CEO of the company.</span>
+              </div>
+              <div class="ml-auto">
+                <div class="tetx-right">
+                  <h5 class="text-muted m-b-0">2022-10-23</h5>
+                </div>
+              </div>
+            </li>
+            <li class="d-flex no-block card-body border-top">
+              <i class="fa fa-question-circle w-30px m-t-5"></i>
+              <div>
+                <a href="#" class="m-b-0 font-medium p-0" data-abc="true">New Guidelines to Employees</a>
+                <span class="text-muted">We have realeased new guidelines to all employees</span>
+              </div>
+              <div class="ml-auto">
+                <div class="tetx-right">
+                  <h5 class="text-muted m-b-0">2022-10-24</h5>
+                </div>
+              </div>
+            </li>
+            <li class="d-flex no-block card-body border-top">
+              <i class="fa fa-plus w-30px m-t-5"></i>
+              <div>
+                <a href="#" class="m-b-0 font-medium p-0" data-abc="true">Android App version 5.1 released</a>
+                <span class="text-muted">We have realeased android app version 5.1. update now.</span>
+              </div>
+              <div class="ml-auto">
+                <div class="tetx-right">
+                  <h5 class="text-muted m-b-0">2022-10-25</h5>
+                </div>
+              </div>
+            </li>
+          </ul>
+          {% endblock page_content %}
+          <div class="page-normal">
+            <span class="page-prev">&lt;</span>
+            <span class="page-current">1</span>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="javascript:history.back()">5</a>
+            …………
+            <a href="#">&gt;</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="page.js"></script>
+    <script src="news.js"></script>
+    <script src="style.css"></script>
+    <script type='text/javascript'
+      src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
+    <script type='text/javascript' src='#'></script>
+    <script type='text/javascript' src='#'></script>
+    <script type='text/javascript' src='#'></script>
+    <script type='text/javascript'></script>
+    <script type='text/javascript'>var myLink = document.querySelector('a[href="#"]');
+      myLink.addEventListener('click', function (e) {
+        e.preventDefault();
+      });</script>
+
+  </body>
+
+</html>

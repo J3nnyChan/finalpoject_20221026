@@ -1,0 +1,195 @@
+/* @import url(http://fonts.googleapis.com/css?family=Calibri:400,300,700); */
+
+/*設定 a 標籤的css樣式*/
+.page-normal a {
+    border: 1px solid #333333;
+    padding: 5px 7px;
+    color: #333333;
+    margin-left: 20px;
+    /*設定標籤 a 之間的間隔*/
+    text-decoration: none;
+    /*去除頁碼數字下面的下劃線*/
+  }
+
+  /*設定滑鼠經過時 a 標籤的css樣式*/
+  .page-normal a:hover {
+    background-color: #999999;
+  }
+
+  /*設定整個div的css樣式,該樣式主要用於設定網頁內的省略號 …… 的樣式，並且同時設定內容居中顯示*/
+  .page-normal {
+    color: #333333;
+    text-align: center;
+  }
+
+  /*設定當前頁面的css樣式*/
+  .page-normal .page-current {
+    color: #333333;
+    background-color: #9933FF;
+  }
+
+  /*設定左單括號 < 的css樣式*/
+  .page-normal .page-prev {
+    color: #333333;
+  }
+
+  /*進行程式碼優化，將不同css樣式中共有的屬性放在一起，有助於提高執行效率*/
+  .page-normal a,
+  .page-normal a:hover,
+  .page-normal .page-prev,
+  .page-normal .page-current {
+    border: 1px solid #5B5B5B;
+    padding: 5px 7px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #333333;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #F0F0F0;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #F0F0F0;
+  }
+
+  body {
+    /* background-color: #333333; */
+    background-image: linear-gradient(#333333, #FF0);
+    font-family: 'Calibri', sans-serif !important
+  }
+
+  .mt-100 {
+    margin-top: 100px;
+  }
+
+  .mb-100 {
+    margin-bottom: 100px;
+  }
+
+  .card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    /* word-wrap: break-word; */
+    background-color: #E0E0E0;
+    background-clip: border-box;
+    border: 0px solid transparent;
+    border-radius: 9px;
+    padding-bottom: 25px;
+  }
+
+  .card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+  }
+
+  .card .card-title {
+    position: relative;
+    font-weight: 450;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #663399;
+    display: inline-block;
+    margin-right: 550px;
+  }
+
+  ul.list-style-none li {
+    list-style: none;
+  }
+
+  ul.list-style-none li a {
+    color: #673AB7;
+    padding: 8px 0px;
+    display: block;
+    text-decoration: none;
+  }
+
+  li.border-top {
+    border-bottom: 2px dotted blue;
+
+  }
+
+  .m-t-5 {
+    margin-top: 5px;
+  }
+
+  i.fa-check-circle {
+    color: #FF0080;
+  }
+
+  i.fa-gift {
+    color: #FF0080;
+  }
+
+  i.fa-leaf {
+    color: #FF0080;
+  }
+
+  i.fa-question-circle {
+    color: #FF0080;
+  }
+
+  i.fa-plus {
+    color: #FF0080;
+  }
+
+  .w-30px {
+    width: 30px;
+  }
+
+  #language {
+    border-color: #673AB7;
+    background-color: #F0F0F0;
+    border-width: 2px;
+    border-style: solid;
+    width: 70px;
+    padding: 8px 6px 8px 6px;
+  }
+
+  #open-close {
+    color: #fff;
+    border-color: #673AB7;
+    background-color: #673AB7;
+    border-style: 1px solid;
+    width: 70px;
+    padding: 7px 7px 7px 7px;
+  }
+
+  .tittle {
+    /* text-align: left; */
+    color: #663399;
+    margin-right: 728px;
+  }
+
+  .line {
+    margin-top: -5px;
+    border: 1px double #673AB7;
+  }
+
+  .line1 {
+    margin-top: -5px;
+    border: 1.5px double #673AB7;
+  }
+
+  .grid_container {
+    height: 55px;
+    justify-content: flex-end;
+    display: inline-block;
+  }
